@@ -1,6 +1,6 @@
 
 import Navbar from './components/Navbar/Navbar';
-import Home from "./components/Home/Home";
+import Hero from "./components/Hero/Hero";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Projects from "./components/Projects/Projects";
 
@@ -12,7 +12,7 @@ function App() {
     <div className="app">
       <Navbar/>
       <div className="sections">
-        <Home />
+        <Hero />
         <Projects />
         <ContactMe />                 
       </div>
